@@ -6,6 +6,9 @@ open Saturn
 
 open Shared
 
+open Fake.Core
+Target.create "fake" ignore
+
 module Storage =
     let todos = ResizeArray()
 
